@@ -1,0 +1,252 @@
+
+<section class="profile-card-section">
+<div class="profile-card">
+  <div class="card-top">
+    <h3>🎮 معاذ</h3>
+    <p>
+      لاعب فيفا محترف بخبرة أكتر من 5 سنوات، شاركت في بطولات رسمية ووصلت لمراحل متقدمة
+      على مستوى الشرق الأوسط.
+    </p>
+    <div class="btn-container">
+      <button id="toggleBtn">
+        <span id="btnText">اعرف تفاصيل أكثر</span>
+        <svg id="arrowIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+          <path d="M7 10l5 5 5-5z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="card-bottom" id="extraContent">
+    <h3>🏆 إنجازاتي</h3>
+    <ul>
+      <li>منافسة على مستوى قوي في بطولات فيفا FC25.</li>
+      <li>أفضل 32 لاعب على مستوى الشرق الأوسط.</li>
+    </ul>
+
+    <h3>🔥 ليش تختارني؟</h3>
+    <p>
+      هساعدك بخطوات عملية للوصول لأفضل مستوى عندك، تدريب مخصص
+      وتحليل مبارياتك خطوة بخطوة.
+    </p>
+
+    <h3>📩 جاهز تطور لعبك؟</h3>
+    <a href="#">اشترك الآن</a>
+  </div>
+</div>
+
+
+
+<div class="profile-card profile-card-2">
+  <div class="card-top">
+    <h3>🎮 معاذ</h3>
+    <p>
+      لاعب فيفا محترف بخبرة أكتر من 5 سنوات، شاركت في بطولات رسمية ووصلت لمراحل متقدمة
+      على مستوى الشرق الأوسط.
+    </p>
+    <div class="btn-container">
+      <button id="toggleBtn">
+        <span id="btnText">اعرف تفاصيل أكثر</span>
+        <svg id="arrowIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+          <path d="M7 10l5 5 5-5z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="card-bottom" id="extraContent">
+    <h3>🏆 إنجازاتي</h3>
+    <ul>
+      <li>منافسة على مستوى قوي في بطولات فيفا FC25.</li>
+      <li>أفضل 32 لاعب على مستوى الشرق الأوسط.</li>
+    </ul>
+
+    <h3>🔥 ليش تختارني؟</h3>
+    <p>
+      هساعدك بخطوات عملية للوصول لأفضل مستوى عندك، تدريب مخصص
+      وتحليل مبارياتك خطوة بخطوة.
+    </p>
+
+    <h3>📩 جاهز تطور لعبك؟</h3>
+    <a href="#">اشترك الآن</a>
+  </div>
+</div>
+
+<div class="profile-card profile-card-3">
+  <div class="card-top">
+    <h3>🎮 معاذ</h3>
+    <p>
+      لاعب فيفا محترف بخبرة أكتر من 5 سنوات، شاركت في بطولات رسمية ووصلت لمراحل متقدمة
+      على مستوى الشرق الأوسط.
+    </p>
+    <div class="btn-container">
+      <button id="toggleBtn">
+        <span id="btnText">اعرف تفاصيل أكثر</span>
+        <svg id="arrowIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+          <path d="M7 10l5 5 5-5z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="card-bottom" id="extraContent">
+    <h3>🏆 إنجازاتي</h3>
+    <ul>
+      <li>منافسة على مستوى قوي في بطولات فيفا FC25.</li>
+      <li>أفضل 32 لاعب على مستوى الشرق الأوسط.</li>
+    </ul>
+
+    <h3>🔥 ليش تختارني؟</h3>
+    <p>
+      هساعدك بخطوات عملية للوصول لأفضل مستوى عندك، تدريب مخصص
+      وتحليل مبارياتك خطوة بخطوة.
+    </p>
+
+    <h3>📩 جاهز تطور لعبك؟</h3>
+    <a href="#">اشترك الآن</a>
+  </div>
+</div>
+
+</section>
+
+<!-- استدعاء خط Tajawal -->
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    margin: 0;
+    background: #000;
+    font-family: 'Tajawal', sans-serif;
+    color: #fff;
+  }
+.profile-card-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  .profile-card {
+    width: 100%;
+    padding: 40px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    position: relative;
+    direction: rtl;
+  }
+
+  .profile-card-2 {
+    direction: ltr;
+  }
+  .profile-card-2::before {
+    left: 0;
+  }
+  .profile-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(180deg, #7a3cff, #c63fff);
+    border-radius: 5px;
+  }
+
+  .profile-card h3 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .profile-card p {
+    color: #ddd;
+    line-height: 1.6;
+  }
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+  .card-top button {
+    margin-top: 15px;
+    background: linear-gradient(90deg, #7a3cff, #c63fff);
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .card-top button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+
+  #arrowIcon {
+    transition: transform 0.3s ease;
+  }
+
+  .rotate {
+    transform: rotate(180deg);
+  }
+
+  .card-bottom {
+    margin-top: 20px;
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  .card-bottom h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .card-bottom a {
+    display: inline-block;
+    margin-top: 15px;
+    background: linear-gradient(90deg, #7a3cff, #c63fff);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .card-bottom a:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("toggleBtn");
+    const arrow = document.getElementById("arrowIcon");
+    const btnText = document.getElementById("btnText");
+    const extraContent = document.getElementById("extraContent");
+
+    btn.addEventListener("click", function () {
+      if (extraContent.style.display === "none" || extraContent.style.display === "") {
+        extraContent.style.display = "block";
+        btnText.textContent = "إخفاء التفاصيل";
+        arrow.classList.add("rotate");
+      } else {
+        extraContent.style.display = "none";
+        btnText.textContent = "اعرف تفاصيل أكثر";
+        arrow.classList.remove("rotate");
+      }
+    });
+  });
+</script>

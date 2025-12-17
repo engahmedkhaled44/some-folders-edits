@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Comfortaa", serif;
+    background-color: #272b30;
+}
+
+button{
+    border: none;
+}
+
+nav {
+    background-color: rgb(58, 73, 123) !important;
+    box-shadow: #0005 1px 2px 12px;
+    border-radius: 15px;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 40px;
+    margin: auto;
+}
+
+.navbar img{
+    width: 40px;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-white);
+    --bs-nav-link-hover-color: var(--bs-blue);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    gap: 10px;
+}
+
+span{
+    font-size:10px;
+    background-color: #fff2;
+    padding-inline: 7px;
+    padding-block: 2px;
+}
+
+.card{
+    transition: transform 500ms;
+    background-color: #272b30;
+    border: solid 1px rgba(31, 29, 29,.5) ;
+    color:rgb(230, 227, 227);
+}
+
+.card:hover{
+    transform: scale(1.04);
+}
+
+.card p{
+    color: gray;
+}
+
+.foot-card{
+    border-top: solid 1px rgba(31, 29, 29,.5);
+}
+
+#details span{
+    background-color:#0dcaf0 ;
+    color: black;
+}
+
+#details button{
+    background-color:transparent;
+    border:#ffc107 1px solid;
+}
+
+#details i{
+    color: gray;
+}
+
+#details i:hover{
+    color:rgb(179, 176, 176) ;
+}
+
+#details h1 , h2{
+    font-family: "Nerko One", cursive;
+    font-weight: 100;
+    /* font-size: 44px; */
+}
